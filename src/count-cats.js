@@ -23,7 +23,7 @@ export default function countCats(backyard) {
     
     catsArr.forEach(function (item) {
         if (item === cats) {
-            countCats = countCats + 1;
+            countCats ++;
         }
     });
     return countCats;

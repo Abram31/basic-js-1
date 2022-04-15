@@ -12,26 +12,27 @@ import { NotImplementedError } from '../extensions/index.js';
  * 
  */
 export default function getSeason(date) {
-
+throw new NotImplementedError('Not implemented');
+  // remove line with error and write your code here
   let season;
   
-  if (Object.prototype.toString.call(date) === '[object Date]') {
-    if ()
-        if(date.getMonth() <= 1 && date.getMonth() >= 0 || date.getMonth() === 11 ) {
-          season = 'winter';
-        }
-        if(date.getMonth() <= 4 && date.getMonth() >= 2) {
-          season = 'spring';
-        }
-        if(date.getMonth() <= 7 && date.getMonth() >= 5) {
-          season = 'summer';
-        }
-        if(date.getMonth() <= 10 && date.getMonth() >= 8) {
-          season = /autumn|fall/;
-        }
-      } else { if (date) {
-                season = 'Invalid date!';
-              } else {season = 'Unable to determine the time of year!';}
-    }
-  return season;
+  // if (Object.prototype.toString.call(date) === '[object Date]') {
+    
+  //       if(date.getMonth() <= 1 && date.getMonth() >= 0 || date.getMonth() === 11 ) {
+  //         season = 'winter';
+  //       }
+  //       if(date.getMonth() <= 4 && date.getMonth() >= 2) {
+  //         season = 'spring';
+  //       }
+  //       if(date.getMonth() <= 7 && date.getMonth() >= 5) {
+  //         season = 'summer';
+  //       }
+  //       if(date.getMonth() <= 10 && date.getMonth() >= 8) {
+  //         season = /autumn|fall/;
+  //       }
+  //     } else { if (date) {
+  //               season = 'Invalid date!';
+  //             } else {season = 'Unable to determine the time of year!';}
+  //   }
+  // return season;
 }
